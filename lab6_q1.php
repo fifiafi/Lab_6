@@ -5,30 +5,38 @@
 </head> 
 <body> 
 <?php  
-$name = "Nur Afifah BINTI NOR'AZMI";
+$name = "NUR AFIFAH BINTI NOR'AZMI";
 $matric_number = "DI220045";
 $course = "Bachelor of Information technology";
-$year_of_study = "Year 2";
-$address = "No 1, Lorong Permai 2E, Taman Pendamaran Permai 2E, 42000 Port Klang, Selangor";
+$year_of_study = "Year 2 Semester 1";
+$address = "No 1, Lorong Permai 2E, Taman Pendamaran Permai, 42000 Port Klang, Selangor";
 ?> 
 <table> 
 <tr> 
 <td>Name</td> 
 <td><?php echo "$name"; ?></td>
+</tr>
 
-<td>matric number</td> 
+<tr>
+<td>Matric Number</td> 
 <td><?php echo "$matric_number"; ?></td>
+</tr>
 
-<td>course</td> 
+<tr>
+<td>Course</td> 
 <td><?php echo "$course"; ?></td>
+</tr>
 
-<td>year of study</td> 
+<tr>
+<td>Year of Study</td> 
 <td><?php echo "$year_of_study"; ?></td>
+</tr>
 
-<td>address</td> 
+<tr>
+<td>Address</td> 
 <td><?php echo "$address"; ?></td>
+</tr>
 
-</tr> 
 </table> 
 </body> 
 </html>
