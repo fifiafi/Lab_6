@@ -7,7 +7,7 @@
 <?php  
 $name = "NUR AFIFAH BINTI NOR'AZMI";
 $matric_number = "DI220045";
-$course = "Bachelor of Information technology";
+$course = "Bachelor of Information Technology";
 $year_of_study = "Year 2 Semester 1";
 $address = "No 1, Lorong Permai 2E, Taman Pendamaran Permai, 42000 Port Klang, Selangor";
 ?> 
