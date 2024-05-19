@@ -25,14 +25,13 @@
 <body>
 
 <?php
-// Define the students array
+
 $students = [
     ['Name' => 'Alice', 'Program' => 'BIP', 'Age' => 21],
     ['Name' => 'Bob', 'Program' => 'BIS', 'Age' => 20],
     ['Name' => 'Raju', 'Program' => 'BIT', 'Age' => 22]
 ];
 
-// Start the HTML table
 echo "<table>
         <tr>
             <th>Name</th>
@@ -40,7 +39,6 @@ echo "<table>
             <th>Age</th>
         </tr>";
 
-// Use foreach loop to display the content of the students array
 foreach ($students as $student) {
     echo "<tr>
             <td>{$student['Name']}</td>
@@ -49,7 +47,6 @@ foreach ($students as $student) {
           </tr>";
 }
 
-// Close the HTML table
 echo "</table>";
 ?>
 
